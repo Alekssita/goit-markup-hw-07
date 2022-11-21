@@ -312,7 +312,7 @@ img {
   gap: 30px;
 }
 
-.benefits__list--title {
+.benefits__subtitle {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 14px;
@@ -325,7 +325,7 @@ img {
   width: calc((100%-90px) / 4);
 }
 
-.benefits__list--description {
+.benefits__description {
   line-height: 1.71;
   color: var(--main-color-font);
 }
@@ -339,7 +339,7 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.benefits__link--icon {
+.benefits__icon {
   width: 70px;
   height: 70px;
 }
@@ -388,8 +388,7 @@ img {
 /*Наша команда*/
 
 
-.team-title,
-.section__title {
+.team__title {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
@@ -397,12 +396,12 @@ img {
   color: var(--main-dark);
 }
 
-.section-team {
+.section__team {
   background-color: var(--btn-inactive);
   padding: 94px 0;
 }
 
-.team-list .item {
+.team__list .item {
   max-width: 270px;
   background: var(--main-light);
 }
@@ -411,7 +410,7 @@ img {
   display: block;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-list {
+.team__list {
   display: flex;
   margin-bottom: 30px;
   list-style: none;
