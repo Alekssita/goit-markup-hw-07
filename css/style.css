@@ -32,10 +32,7 @@
   padding: 94px 0;
 }
 
-.section-benefits {
-  padding: 94px 0;
-  padding-bottom: 0;
-}
+
 
 h1,
 h2,
@@ -220,7 +217,7 @@ img {
 }
 
 /*рішення для вашого бізнесу */
-.section-hero {
+.section__hero {
   background-color: var(--main-unit);
   color: var(--main-dark);
   padding: 200px 0;
@@ -236,7 +233,7 @@ img {
   background-position: center;
 }
 
-.hero-title {
+.hero__title {
   max-width: 700px;
   margin: 0 auto 30px;
   font-weight: 900;
@@ -247,7 +244,7 @@ img {
   text-transform: uppercase;
   color: var(--main-light);
 }
-.hero-btn {
+.hero__btn {
   padding: 10px 32px;
   border-radius: 4px;
   cursor: pointer;
@@ -291,7 +288,12 @@ img {
 }
 
 /*умови*/
-.benefits-title {
+.section__benefits {
+  padding: 94px 0;
+  padding-bottom: 0;
+}
+
+.benefits__title {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -304,13 +306,13 @@ img {
   margin: -1px;
 }
 
-.benefits-list {
+.benefits__list {
   display: flex;
   list-style: none;
   gap: 30px;
 }
 
-.benefits-list-title {
+.benefits__list--title {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 14px;
@@ -318,16 +320,16 @@ img {
   color: var(--main-dark);
   text-transform: uppercase;
 }
-.benefits-list-item {
+.benefits__item {
   flex-wrap: wrap;
   width: calc((100%-90px) / 4);
 }
 
-.benefits-list-title-description {
+.benefits__list--description {
   line-height: 1.71;
   color: var(--main-color-font);
 }
-.benefits-list-item-link {
+.benefits__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -337,12 +339,21 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.benefits-list-item-link-icon {
+.benefits__link--icon {
   width: 70px;
   height: 70px;
 }
 /*Чим ми займаємося*/
-.section-title-activity {
+
+.section__title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.43;
+  color: var(--main-dark);
+}
+
+.title__activity {
   position: relative;
   }
 
@@ -379,7 +390,7 @@ img {
 
 
 .team-title,
-.section-title {
+.section__title {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
