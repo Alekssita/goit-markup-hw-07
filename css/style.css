@@ -345,7 +345,7 @@ img {
 }
 /*Чим ми займаємося*/
 
-.section__title {
+.section__activity {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
@@ -353,11 +353,23 @@ img {
   color: var(--main-dark);
 }
 
-.title__activity {
+.activity__title {
   position: relative;
   }
 
-.section-title-activity-name {
+.activity__list
+{
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+.activity__name {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -371,19 +383,6 @@ img {
   text-transform: uppercase;
   color: var(--main-light);
   background: rgba(47, 48, 58, 0.8);
-}
-
-.list-activited
-{
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-  margin: 0px;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding-left: 0;
-  margin: 0;
-  list-style: none;
 }
 
 /*Наша команда*/
