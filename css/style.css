@@ -47,17 +47,28 @@ p {
   margin: 0;
   padding: 0;
 }
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
-.header-nav {
+.header__nav {
   display: flex;
   align-items: center;
   flex-grow: 1;
   margin-left: 92px;
 }
 
+.header__list {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
 body {
   font-family: var(--main-font);
   color: var(--main-color-font);
