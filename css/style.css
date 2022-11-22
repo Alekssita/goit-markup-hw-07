@@ -218,6 +218,10 @@ img {
 
 /*рішення для вашого бізнесу */
 .section__hero {
+  padding: 94px 0;
+}
+
+.section__hero {
   background-color: var(--main-unit);
   color: var(--main-dark);
   padding: 200px 0;
@@ -566,7 +570,7 @@ footer {
   background: var(--main-unit);
 }
 
-.link-logo {
+.footer__logo {
   display: flex;
   margin-bottom: 20px;
   font-family: "Raleway";
@@ -578,10 +582,10 @@ footer {
   font-weight: 700;
 }
 
-.link-logo-wrap {
+.footer__wrap {
   color: var(--main-light);
 }
-.link-contact {
+.footer__link {
   display: inline-block;
   font-style: normal;
   font-family: "Roboto";
@@ -590,8 +594,9 @@ footer {
   line-height: 1.71;
   color: var(--main-light);
   text-decoration: none;
-}
-.link-contact-nav {
+  }
+
+.footer__nav {
   display: inline-block;
   font-style: normal;
   font-family: "Roboto";
@@ -601,14 +606,15 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.list-contact {
+.footer__contact {
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
   margin-right: 70px;
-}
+  }
 
-.list-contact-item:not(:last-child) {
+
+.footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 /*Socials*/
@@ -641,25 +647,20 @@ ul {
   fill: var(--main-light);
 }
 
-.link-nav-icon {
-  display: flex;
-  justify-content: center;
-}
-
 /**/
 
-.socials-list-footer {
+.footer__socials--list {
   display: flex;
   justify-content: center;
   gap: 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-item-footer {
+.footer__socials--item {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-link-footer {
+.footer__socials--link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -670,16 +671,16 @@ ul {
   border-radius: 50%;
 }
 
-.socials-link-footer:hover {
+.footer__socials--link:hover {
   fill: var(--main-light);
   background-color: var(--secondary-color);
 }
 
-.socials-icon-footer:hover {
+.footer__socials--icon:hover {
   fill: var(--main-light);
 }
 
-.socials-contacts {
+.footer__socials {
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
@@ -692,7 +693,7 @@ ul {
   display: flex;
 }
 
-.socials__naim {
+.footer__socials--naim {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -721,8 +722,8 @@ ul {
 }
 
 .subscription__list {
-    display: flex;
-    align-items: center;
+   display: flex;
+   align-items: center;
    padding-right: 12px;
 }
 
