@@ -592,6 +592,7 @@ footer {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: none;
   color: var(--main-light);
   text-decoration: none;
   }
