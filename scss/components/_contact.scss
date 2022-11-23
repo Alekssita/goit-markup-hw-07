@@ -21,11 +21,11 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .nav--icon:hover {
+  .contact__nav--icon:hover {
     fill: var(--secondary-color);
   }
   
-  .nav--icon {
+  .contact__nav--icon {
     display: flex;
     align-items: center;
     justify-content: center;
