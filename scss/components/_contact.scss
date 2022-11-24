@@ -1,4 +1,14 @@
-
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
 
 .contact__nav {
     margin-left: auto;
@@ -21,11 +31,11 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .contact__nav--icon:hover {
+  .contact__icon:hover {
     fill: var(--secondary-color);
   }
   
-  .contact__nav--icon {
+  .contact__icon {
     display: flex;
     align-items: center;
     justify-content: center;

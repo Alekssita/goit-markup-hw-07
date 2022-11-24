@@ -1,5 +1,4 @@
-
-.goods__list {
+.goods {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -42,7 +41,6 @@
     color: var(--main-color-font)
     
   }
-  
   .goods__discription {
     position: absolute;
     top: 0;

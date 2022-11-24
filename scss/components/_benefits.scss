@@ -1,5 +1,4 @@
-
-.benefits__section {
+.benefits {
     padding: 94px 0;
     padding-bottom: 0;
   }
@@ -31,12 +30,12 @@
     color: var(--main-dark);
     text-transform: uppercase;
   }
+
   .benefits__item {
     flex-wrap: wrap;
     width: calc((100% - 90px) / 4);
   }
-  
-  
+
   .benefits__description {
     line-height: 1.71;
     color: var(--main-color-font);
@@ -51,6 +50,7 @@
     border-radius: 4px;
     margin-bottom: 30px;
   }
+
   .benefits__icon {
     width: 70px;
     height: 70px;

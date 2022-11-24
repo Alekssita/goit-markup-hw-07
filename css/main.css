@@ -1,4 +1,4 @@
-.activity__section {
+.activity {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
@@ -43,7 +43,7 @@
   background: rgba(47, 48, 58, 0.8);
 }
 
-.benefits__section {
+.benefits {
   padding: 94px 0;
   padding-bottom: 0;
 }
@@ -112,7 +112,7 @@
   height: 70px;
 }
 
-.checkbox__form {
+.checkbox {
   margin-bottom: 30px;
   padding-left: 12px;
 }
@@ -157,16 +157,16 @@
   background-position: center;
 }
 
-.clients_section .clients__title {
+.clients {
+  padding: 94px 0;
+}
+
+.clients .clients__title {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
   line-height: 1.43;
   color: var(--main-dark);
-}
-
-.clients_section {
-  padding: 94px 0;
 }
 
 .clients__list {
@@ -208,6 +208,23 @@
   color: var(--secondary-color);
 }
 
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
 .contact__nav {
   margin-left: auto;
   padding-top: 32px;
@@ -235,11 +252,11 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__nav--icon:hover {
+.contact__icon:hover {
   fill: var(--secondary-color);
 }
 
-.contact__nav--icon {
+.contact__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,6 +270,10 @@
   background-color: var(--main-light);
   margin-right: 10px;
   fill: currentColor;
+}
+
+.filtr {
+  padding: 94px 0;
 }
 
 .filtr__btn:not(:last-child) {
@@ -282,12 +303,9 @@
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-footer {
-  background: var(--main-unit);
-}
-
-.footer__section {
+.footer {
   padding: 94px 0;
+  background: var(--main-unit);
 }
 
 .footer__logo {
@@ -471,19 +489,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.textarea {
-  width: 100%;
-  height: 120px;
-  padding: 12px 16px;
-  color: rgba(117, 117, 117, 0.5);
-  border: 1px solid var(--border-forma);
-  border-radius: 4px;
-  outline: none;
-  resize: none;
-  color: var(--main-dark);
-}
-
-.goods__list {
+.goods {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -714,7 +720,7 @@ footer {
   color: var(--logo-wrap-color);
 }
 
-.modal__backdrop {
+.modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -726,18 +732,7 @@ footer {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.modal__backdrop .is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(1.2);
-          transform: translate(-50%, -50%) scale(1.2);
-}
-
-.modal {
+.modal__backdrop {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -751,6 +746,17 @@ footer {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 20px;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal .is-hidden .modal__backdrop {
+  -webkit-transform: translate(-50%, -50%) scale(1.2);
+          transform: translate(-50%, -50%) scale(1.2);
 }
 
 .modal__button {
@@ -876,7 +882,7 @@ ul {
   margin-left: 10px;
 }
 
-.team__section {
+.team {
   background-color: var(--btn-inactive);
   padding: 94px 0;
 }
@@ -932,6 +938,18 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
+.textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+  color: rgba(117, 117, 117, 0.5);
+  border: 1px solid var(--border-forma);
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+  color: var(--main-dark);
+}
+
 .container {
   max-width: 1200px;
   padding-left: 15px;
@@ -968,23 +986,6 @@ body {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0px;
-  margin: 0px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 50px;
-  padding-left: 0;
-  margin: 0;
-  list-style: none;
 }
 
 .visually-hidden {

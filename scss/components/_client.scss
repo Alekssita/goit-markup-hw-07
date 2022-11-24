@@ -1,16 +1,15 @@
+.clients {
+    padding: 94px 0;
+  }
 
-.clients_section .clients__title {
+.clients .clients__title {
     margin-bottom: 50px;
     text-align: center;
     font-size: 36px;
     line-height: 1.43;
     color: var(--main-dark);
   }
-  
-  .clients_section {
-    padding: 94px 0;
-  }
-  
+   
   .clients__list {
     display: flex;
     gap: 30px;

@@ -1,10 +1,6 @@
-
-footer {
-    background: var(--main-unit);
-  }
-  
-  .footer__section {
+.footer {
     padding: 94px 0;
+    background: var(--main-unit);
   }
   
   .footer__logo {
@@ -51,12 +47,10 @@ footer {
     margin-right: 70px;
     }
   
-  
   .footer__item:not(:last-child) {
     margin-bottom: 9px;
   }
-
-  
+ 
 .footer__socials--list {
     display: flex;
     justify-content: center;
