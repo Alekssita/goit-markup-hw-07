@@ -82,7 +82,7 @@
     fill: var(--main-light);
   }
   
-  .footer__socials {
+  .footer__list {
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
@@ -91,7 +91,7 @@
     padding-top: 12px;
       }
   
-  .socials {
+  .footer__socials {
     display: flex;
     align-items: baseline;
   }

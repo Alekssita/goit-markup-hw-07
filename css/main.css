@@ -406,7 +406,7 @@
   fill: var(--main-light);
 }
 
-.footer__socials {
+.footer-socials {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -418,7 +418,7 @@
   padding-top: 12px;
 }
 
-.socials {
+.footer__socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
