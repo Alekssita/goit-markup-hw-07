@@ -308,6 +308,15 @@
   background: var(--main-unit);
 }
 
+.footer__communication {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 .footer__logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -363,7 +372,29 @@
   margin-bottom: 9px;
 }
 
-.footer__socials--list {
+.footer__socials {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  max-width: 206px;
+  height: 80px;
+  padding-top: 12px;
+}
+
+.footer__naim {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-light);
+  padding-bottom: 20px;
+}
+
+.footer__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,12 +406,12 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__socials--item {
+.footer__section {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__socials--link {
+.footer__sector {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -397,44 +428,13 @@
   border-radius: 50%;
 }
 
-.footer__socials--link:hover {
+.footer__sector:hover {
   fill: var(--main-light);
   background-color: var(--secondary-color);
 }
 
-.footer__socials--icon:hover {
+.footer__icon:hover {
   fill: var(--main-light);
-}
-
-.footer-socials {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  list-style: none;
-  max-width: 206px;
-  height: 80px;
-  padding-top: 12px;
-}
-
-.footer__socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.footer__socials--naim {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--main-light);
-  padding-bottom: 20px;
 }
 
 .goods {
